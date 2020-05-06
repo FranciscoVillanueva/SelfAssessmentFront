@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewData["Title"] = "SearchCandidate";
+}
+
+<h2>Search Candidate</h2>
+
+@*<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+        <div class="input-group">
+            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i> Search
+                </button>
+            </div>
+        </div>
+    </form>*@
+
+<div class="row">
+    <div class="col-md-2">Choose profile</div>
+    <div class="col-md-10">
+        <select class="custom-select">
+            <option value="1">profile 1</option>
+            <option value="2">profile 2</option>
+            <option value="3">profile 3</option>
+            <option value="4">profile 4</option>
+            <option value="5">dsadsadsadaaaaaaaaaaaadddddddr</option>
+        </select>
+    </div>
+</div>
+
+<br />
+
+<div class="row">
+    <div class="col-md-2">Filter by skills</div>
+    <div class="col-md-10">
+        <select class="selectpicker SetWidth border bg-light" multiple data-live-search="true">
+            <optgroup label="Technology1">
+                <option value="1">skill 1</option>
+                <option value="2">skill 2</option>
+            </optgroup>
+            <optgroup label="Technology 2">
+                <option value="3">skill 3</option>
+                <option value="4">skill 4</option>
+                <option value="5">dsadsadsadaaaaaaaaaaaadddddddr</option>
+                <option value="6">dsadsadsadaaaaaaaaaaaadddddddr</option>
+            </optgroup>
+        </select>
+    </div>
+</div>
+
+<br />
+
+@*<select name="foo" width="900" style="width: 900px">
+        <option>one </option>
+        <option>two </option>
+        <option>three </option>
+    </select>*@
+
+@*<div class="input-group">
+        <input type="text" class="form-control bg-light border-0 small" placeholder="Search by name..." aria-label="Search" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#FoundModal">
+                <i class="fas fa-search fa-sm"></i> Search
+            </button>
+        </div>
+    </div>*@
+
+<div class="row">
+    <div class="col-md-2">
+        Name
+    </div>
+    <div class="col-md-8">
+        <input type="text" class="form-control bg-light small" placeholder="Search by name..." aria-label="Search" aria-describedby="basic-addon2">
+    </div>
+</div>
+
+<br />
+
+<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#FoundModal">
+    <i class="fas fa-search fa-sm"></i> Search
+</button>
+
+<div class="modal fade" id="FoundModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Found candidates for job #</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <partial name="_Candidates" />
+            </div>
+        </div>
+    </div>
+</div>

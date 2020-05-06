@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<h2>Trainings</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Course one</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Skill</h6>
+        <p class="card-text">description</p>
+        <a href="#" class="card-link d-inline-block btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#DoneModal">Done</a>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Course two</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Organization</h6>
+        <p class="card-text">profile description</p>
+        <a href="#" class="card-link d-inline-block btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#DoneModal">Done</a>
+    </div>
+</div>
+
+<!-- Done Modal-->
+<div class="modal fade" id="DoneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Did you really finished the course?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">No</button>
+                <button class="btn btn-primary" type="button" data-dismiss="modal">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
