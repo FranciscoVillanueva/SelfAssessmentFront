@@ -51,12 +51,6 @@ C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\ne
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.TagHelpers.input.cache
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.TagHelpers.output.cache
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.RazorCoreGenerate.cache
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\Courses.g.cshtml.cs
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\Interview.g.cshtml.cs
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\SearchCandidate.g.cshtml.cs
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\SelfAssessment.g.cshtml.cs
-C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\_Candidates.g.cshtml.cs
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -71,3 +65,13 @@ C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\ne
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.dll
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.pdb
 C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\SelfAssessmentFront.csproj.CopyComplete
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\Courses.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\Interview.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\SearchCandidate.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\SelfAssessment.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\_Candidates.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Interviewer\Dashboard.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_InitialLayout.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.g.cshtml.cs
+C:\Users\Curso\source\repos\SelfAssessmentFront\SelfAssessmentFront\obj\Debug\netcoreapp2.1\Razor\Views\Home\ForgotPassword.g.cshtml.cs

@@ -3,24 +3,34 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using InterviewFront.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace InterviewFront.Controllers
+namespace SelfAssessmentFront.Controllers
 {
-    public class HomeController : Controller
+    public class InterviewerController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Dashboard()
         {
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult Interview()
         {
             return View();
         }
-        
-        public IActionResult ForgotPassword()
+
+        public IActionResult SearchCandidate()
+        {
+            return View();
+        }
+
+        public IActionResult Courses()
+        {
+            return View();
+        }
+
+        public IActionResult SelfAssessment()
         {
             return View();
         }
